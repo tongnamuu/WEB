@@ -1,0 +1,50 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+/*
+normalize.css
+fonts.google.com
+*/
+* {
+  box-sizing: border-box;
+  /*
+  box의 width가 300px이고
+  padding left 20px 을 줄 때
+  content는 280px만 가지게 된다. 하지만 브라우저때문에 320px가 된다.
+  compensate : 박스가 320px를 가지게 된다.
+  box에 padding을 주면 설정하고 싶은 width, height 보다 더 커지게 된다.
+  border-box: padding이 추가되도 box size를 키우지 말것
+  */
+}
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  color: white;
+  background-color: #dc5d46;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 14px;
+}
