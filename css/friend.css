@@ -1,0 +1,44 @@
+.friend {
+  background-color: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 7px;
+}
+.friend .friend__avatar {
+  background-color: greenyellow;
+  width: 50px;
+  border-radius: 37%;
+}
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+.friend__avatar.g-avatar {
+  width: 70px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottm-text {
+  opacity: 0.6;
+}
+.friend__content .friend__bottm-text {
+  font-size: 14px;
+}
+.friend__content .friend__status {
+  font-size: 12px;
+}
+
+.friend .caht__timestamp {
+  font-size: 12px;
+  opacity: 0.6;
+}

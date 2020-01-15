@@ -3,6 +3,7 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
 /*
 normalize.css
 fonts.google.com
@@ -28,6 +29,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 .nav .nav__list-link {
