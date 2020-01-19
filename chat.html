@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chats with Friends</title>
   </head>
-  <body>
+  <body class="chat-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -44,32 +44,48 @@
       </div>
     </header>
 
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Tuesday, January 14, 2020</span>
         <li class="incoming-message message">
           <img src="images/pooh.png" class="m-avatar message__avatar" />
           <div class="message__content">
-            <span class="message_author">Best Friend</span>
-            <div class="message__bubble">congrats I love you!</div>
+            <span class="message__author">Best Friend</span>
+            <span class="message__bubble">congrats I love you!</span>
           </div>
-          <span class="message__timestamp"></span>
+          <span class="message__timestamp">11:11</span>
+        </li>
+
+        <li class="sent-message message">
+          <span class="message__timestamp">11:20</span>
+          <div class="message__content">
+            <span class="message__bubble">Thank you! See you soon!</span>
+          </div>
         </li>
 
         <li class="incoming-message message">
-          <span class="message__timestamp"></span>
+          <img src="images/pooh.png" class="m-avatar message__avatar" />
           <div class="message__content">
-            <div class="message__bubble">Thank you!</div>
+            <span class="message__author">Best Friend</span>
+            <span class="message__bubble">hi!</span>
+          </div>
+          <span class="message__timestamp">11:44</span>
+        </li>
+
+        <li class="sent-message message">
+          <span class="message__timestamp">11:44</span>
+          <div class="message__content">
+            <span class="message__bubble">bye!</span>
           </div>
         </li>
       </ul>
     </main>
     <div class="chat__write">
-      <div class="caht__write-column"><i class="far fa-plus-square"></i></div>
-      <div class="caht__write-column">
+      <div class="chat__write-column"><i class="far fa-plus-square"></i></div>
+      <div class="chat__write-column">
         <input type="text" placeholder="Send message" />
       </div>
-      <div class="caht__write-column">
+      <div class="chat__write-column">
         <span class="chat__write-icon"><i class="far fa-smile-wink"></i></span>
         <span class="chat__write-icon"><i class="fas fa-microphone"></i></span>
       </div>
