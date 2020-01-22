@@ -5,6 +5,7 @@
   align-items: center;
 }
 .friend .friend__column {
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
 }
